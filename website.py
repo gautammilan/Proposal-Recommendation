@@ -1,6 +1,5 @@
 
 import streamlit as st
-import mysql.connector
 import pandas as pd
 import numpy as np
 import pandas as pd
