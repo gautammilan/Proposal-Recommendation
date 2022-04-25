@@ -1,6 +1,6 @@
-#installing all the librabries and framework
-# pip install tensorflow
+
 import streamlit as st
+import mysql.connector
 import pandas as pd
 import numpy as np
 import pandas as pd
@@ -179,5 +179,5 @@ else:
   st.header("Evaluation")
   st.text("The task is simple a binary classification, so it was the straightforward choice of selecting \nbinary cross-entropy loss function. Similarly, the dataset is quite a balance which makes it \npossible to use accuracy as the evaluation matrix. The accuracy was quite good on both the training \nand test dataset even after training for just 9 epochs the training and test accuracy reached \n85.5% and 84% respectively. ")
   st.image('accuracy.png',caption='Tensorboard Image')
-  st.text("Blue:Train")
-  st.text("Red:Test")
+  st.text("RED:")
+  st.text("BLUE:Test")
