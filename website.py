@@ -20,7 +20,7 @@ def read_dataset():
  return dataframe
 
 
-@st.cache(suppress_st_warning=True)
+@st.cache(suppress_st_warning=True,allow_output_mutation=True)
 def getting_model():
     model= createModel()
     model.load_weights('backup')
