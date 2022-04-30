@@ -8,3 +8,5 @@ To apply deep learning model in order to automize the task of selecting those pr
 ## Deployment
 I have done the deployment using streamlit, inorder to get more information please visit the website here
 
+https://share.streamlit.io/gautammilan/proposal-recommendation/main/website.py
+
